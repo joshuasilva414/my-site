@@ -21,5 +21,10 @@ body {
   background-blend-mode: overlay;
   background-color: hsl(var(--background) / 60%);
   color: hsl(var(--foreground));
-  font-family: var(--font-sans), Helvetica, sans-serif;
+  font-family: var(--font-erode), serif;
+}
+
+.wrap-circle {
+  shape-outside: circle(50%);
+  clip-path: circle(50%);
 }
