@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { ViewTransition } from "react";
+import Navbar from "./navbar";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -20,7 +22,7 @@ export const metadata: Metadata = {
   description: "Joshua Silva's Portfolio Website",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -28,7 +30,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${satoshi.variable} ${erode.variable} antialiased`}>
-        {children}
+        <div className="w-screen h-screen px-60 py-40">
+          <main className="w-full space-y-4">
+            <Navbar></Navbar>
+            <ViewTransition enter="slide-in">{children}</ViewTransition>
+          </main>
+        </div>
       </body>
     </html>
   );
