@@ -30,9 +30,9 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className={`${satoshi.variable} ${erode.variable} antialiased`}>
-        <div className="w-screen h-screen px-60 py-40">
+        <div className="w-screen h-screen px-10 py-10 md:px-20 md:py-20 lg:px-60 lg:py-40">
           <main className="w-full space-y-4">
-            <Navbar></Navbar>
+            <Navbar />
             <ViewTransition enter="slide-in">{children}</ViewTransition>
           </main>
         </div>

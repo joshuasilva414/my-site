@@ -12,21 +12,41 @@ export default function Home() {
           className="mr-5 mask-radial-at-center object-cover aspect-square rounded-full float-start wrap-circle"
         />
         <p className="text-right text-lg text-pretty">
-          Eu est aliqua ex amet. Eu ut pariatur magna irure dolor ullamco
-          exercitation enim qui sint laboris proident commodo aliqua cupidatat.
-          Magna occaecat pariatur fugiat do exercitation. Eu duis culpa aliquip
-          qui Lorem nulla nostrud quis nostrud ea fugiat. Do do enim enim mollit
-          nulla reprehenderit enim cupidatat ea id magna dolore. Irure anim
-          cillum enim voluptate culpa laborum ullamco adipisicing ut enim velit
-          ut excepteur. Nostrud duis cupidatat laboris cillum mollit esse enim
-          in ullamco. Voluptate aliqua sunt Lorem labore sit. Adipisicing ex
-          enim culpa eu magna ut Lorem velit tempor veniam. Non occaecat nisi
-          commodo labore id enim sit anim. Eiusmod sit occaecat pariatur veniam
-          reprehenderit nisi commodo consectetur ipsum laborum cillum excepteur
-          aliqua. Ut ipsum adipisicing nulla officia culpa culpa.
+          Hello! I&apos;m Joshua Silva, a Master&apos;s student at UT San
+          Antonio and an officer of ACM UTSA, the largest tech organization on
+          campus. I love engaging with the tech communities around me and I
+          believe in solving the world&apos;s most challenging problems through
+          technology. I&apos;m eager to make the next step in my career and
+          broaden my impact.
         </p>
       </div>
-      <div></div>
+      <div className="clear-both">
+        <div className="">
+          <h3 className="text-2xl font-semibold text-center">Skills</h3>
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 justify-between place-content-between text-lg gap-2 [&>p]:w-fit lg:[&>p]:text-nowrap">
+            <p>AI Developer Tools</p>
+            <p>Relational Database Concepts</p>
+            <p>Advanced Python</p> <p>Advanced Java</p>
+            <p>HTML</p> <p>CSS</p> <p>JavaScript</p>
+            <p>Enterprise Software Engineering</p>
+            <p>Systems Programming</p>
+            <p>TypeScript</p> <p>C</p> <p>C#</p> <p>Go</p>
+            <p>PostgreSQL</p>
+            <p>Web Technologies</p>
+            <p>UI on Mobile Platforms</p>
+            <p>Scikit-Learn</p> <p>Pandas</p> <p>NumPy</p>
+            <p>Git-Based Collaboration</p>
+            <p>Technical Documentation</p>
+            <p>TensorFlow</p> <p>PyTorch</p>
+            <p>Project Management</p>
+            <p>Developer Advocacy Experience</p>
+            <p>React.js</p> <p>Next.js</p> <p>FastAPI</p> <p>TailwindCSS</p>
+            <p>CI/CD Platforms</p>
+            <p>API Design</p>
+            <p>Cloud Platforms / Containerization</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
