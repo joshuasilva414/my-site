@@ -12,7 +12,9 @@ export default function Home() {
           className="mr-5 mask-radial-at-center object-cover aspect-square rounded-full float-start wrap-circle"
         />
         <div className="">
-          <h3 className="text-2xl font-semibold text-center">About</h3>
+          <h3 className="text-2xl font-semibold text-right sm:text-center">
+            About
+          </h3>
           <p className="text-right text-lg text-pretty">
             Hello! I&apos;m Joshua Silva, a Master&apos;s student at UT San
             Antonio and an officer of ACM UTSA, the largest tech organization on
@@ -25,7 +27,9 @@ export default function Home() {
       </div>
       <div className="clear-both">
         <div className="">
-          <h3 className="text-2xl font-semibold text-center">Skills</h3>
+          <h3 className="text-2xl font-semibold text-left sm:text-center">
+            Skills
+          </h3>
           <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 justify-between place-content-between text-lg gap-x-2 gap-y-1 [&>p]:w-fit lg:[&>p]:text-nowrap">
             <p>AI Developer Tools</p>
             <p>Relational Database Concepts</p>
