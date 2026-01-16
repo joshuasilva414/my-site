@@ -11,16 +11,57 @@ const roles = [
     description:
       "Devised proprietary system for extracting tabular data from PDFs with high accuracy and flexibility. Developed web application using advanced web development techniques. Participated in daily standup meetings and aided in technical documentation.",
     achievements: [
-      "Reduced client onboarding time and improved accuracy via data extraction automation from complex PDF forms",
+      "Reduced manual OCR template generation time from complex PDF forms via an automated template generation tool",
       "Analyzed samples to identify parsing challenges and designed system for developing tabular data extraction templates",
     ],
     skills: [
       "Debugging",
       "AI Developer Tools",
-      "Large Scale Distributed Systems",
+      "Software Automation",
       "Security & Compliance",
     ],
     link: "https://paycom.com",
+  },
+
+  {
+    company: "UTSA Virtual and Immersive Realities Lab",
+    title: "Undergraduate Research Assistant",
+    location: "San Antonio, TX",
+    locationType: "On-site" as const,
+    startDate: "Jun 2023",
+    endDate: "May 2024",
+    description:
+      "Researched relevant machine learning approaches for semantic image segmentation. Applied deep learning architectures to the problem of detecting astrocytes in brain scan images. Contributed to an academic paper on the subject.",
+    achievements: [
+      "Achieved 97% pixel-wise prediction accuracy and authored methodology on ResNet architecture",
+      "Trained CNNs with hyperparameter tuning to evaluate performance of established models",
+      "Trained machine learning model to detect traumatic brain injury from brain scan images with high accuracy",
+    ],
+    skills: [
+      "Data Analysis",
+      "ML Workloads",
+      "PyTorch",
+      "AI Training",
+      "Hyperparameter Tuning",
+      "Academic Literacy",
+    ],
+  },
+  {
+    company: "ACM UTSA",
+    title: "President",
+    location: "San Antonio, TX",
+    locationType: "Hybrid" as const,
+    startDate: "Nov 2023",
+    endDate: "May 2024",
+    description:
+      "Acted as representative, leader, and liaison for student body. Led initiative to reorganize leadership to handle rapid growth through new systems and constitutional revisions. Managed communications and fostered engagement.",
+    achievements: [
+      "Created initiatives system framework to collaborate across foci, raised productivity, and facilitated massive organizational growth",
+      "Analyzed existing structure for interdepartmental barriers and enacted clear collaboration protocols",
+      "Drove collaboration and capacity for simultaneous projects through shared accountability structures",
+    ],
+    skills: ["Public Speaking", "Ownership & Adaptability", "Bias for Action"],
+    link: "https://acmutsa.org",
   },
   {
     company: "ACM UTSA",
@@ -32,39 +73,18 @@ const roles = [
     description:
       "Provide administrative and logistical support for open-source software projects. Coordinate meetings, manage documentation, monitor progress, and communicate with stakeholders. Ensure project success and adherence to deadlines.",
     achievements: [
-      "Scaled team to 20 members and organized smaller, project-specific teams to progress simultaneous projects",
-      "Leveraged workflows to increase efficiency in review of PRs and improved developer experience via curated documentation",
+      "Scaled group to 20 members and organized smaller, project-specific teams to progress simultaneous projects",
+      "Formed a team dedicated to improving developer experience through enhanced documentation and developer tooling",
+      "Leveraged workflows to increase efficiency in review of PRs",
       "Increased ease of learning for new members through improved onboarding resources",
     ],
     skills: [
-      "TypeScript",
+      "Documentation",
       "Git-Based Collaboration",
       "Testing Strategies",
       "Developer Advocacy",
     ],
     link: "https://acmutsa.org",
-  },
-  {
-    company: "UTSA Virtual and Immersive Realities Lab",
-    title: "Undergraduate Research Assistant",
-    location: "San Antonio, TX",
-    locationType: "On-site" as const,
-    startDate: "Jun 2023",
-    endDate: "May 2024",
-    description:
-      "Researched relevant machine learning approaches for semantic image segmentation. Wrote paper on subject matter. Assisted with data collection, literature reviews, data entry, and report preparation.",
-    achievements: [
-      "Achieved 97% pixel-wise prediction accuracy and authored methodology on ResNet architecture",
-      "Trained CNNs with hyperparameter tuning to evaluate performance of established models",
-      "Trained machine learning model to detect traumatic brain injury from brain scan images with high accuracy",
-    ],
-    skills: [
-      "AI Inference",
-      "Data Analysis",
-      "ML Workloads",
-      "AI Training",
-      "TypeScript",
-    ],
   },
   {
     company: "ACM UTSA",
@@ -87,68 +107,6 @@ const roles = [
       "Logistics and Coordination",
     ],
     link: "https://acmutsa.org",
-  },
-  {
-    company: "ACM UTSA",
-    title: "President",
-    location: "San Antonio, TX",
-    locationType: "Hybrid" as const,
-    startDate: "Nov 2023",
-    endDate: "May 2024",
-    description:
-      "Acted as representative, leader, and liaison for student body. Led initiative to reorganize leadership to handle rapid growth through new systems and constitutional revisions. Managed communications and fostered engagement.",
-    achievements: [
-      "Created initiatives system framework to collaborate across foci, raised productivity, and facilitated massive organizational growth",
-      "Analyzed existing structure for interdepartmental barriers and enacted clear collaboration protocols",
-      "Drove collaboration and capacity for simultaneous projects through shared accountability structures",
-    ],
-    skills: ["Public Speaking", "Ownership & Adaptability", "Bias for Action"],
-    link: "https://acmutsa.org",
-  },
-  {
-    company: "ACM UTSA",
-    title: "Tech Lead — HackKit",
-    location: "San Antonio, TX",
-    locationType: "Hybrid" as const,
-    startDate: "May 2024",
-    endDate: "Present",
-    description:
-      "Define project scope, create technical designs, and manage team tasks. Monitor progress by communicating with team members, identifying and resolving technical issues. Foster collaborative team environment.",
-    achievements: [
-      "Built and launched HackKit hackathon resource platform, enhancing participant experience for 500+ hackers",
-      "Conducted user research to identify key pain points and requirements",
-      "Developed core features including registration, check-in, admin-side event management, and user management",
-      "Increased satisfaction and reduced organizer workload",
-    ],
-    skills: [
-      "TypeScript",
-      "Event-Driven Architecture",
-      "Testing Strategies",
-      "AI Deployment",
-    ],
-    link: "https://github.com/acmutsa/hackkit",
-  },
-  {
-    company: "ACM UTSA",
-    title: "Technical Project Lead — ClubKit",
-    location: "San Antonio, TX",
-    locationType: "Hybrid" as const,
-    startDate: "Jan 2024",
-    endDate: "Present",
-    description:
-      "Oversaw development and rollout of custom features for usability and scalability. Provided technical leadership and guidance to team while ensuring alignment with project goals, deadlines, and quality standards.",
-    achievements: [
-      "Designed and launched ClubKit portal to manage events and membership for 1K+ students",
-      "Identified pain points and oversaw dev and rollout of features for better usability and scalability",
-      "Improved efficiency and interorganizational engagement",
-    ],
-    skills: [
-      "Data Analytics",
-      "AI Development",
-      "Mentorship",
-      "Problem Solving",
-    ],
-    link: "https://github.com/acmutsa/clubkit",
   },
   {
     company: "ACM UTSA",
