@@ -29,6 +29,16 @@ export default async function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon_io/favicon.ico" sizes="any" />
+        <link
+          rel="apple-touch-icon"
+          href="/favicon_io/apple-touch-icon.png"
+          type="image/png"
+          sizes="any"
+        />
+        <link rel="manifest" href="/favicon_io/site.webmanifest" />
+      </head>
       <body className={`${satoshi.variable} ${erode.variable} antialiased`}>
         <div className="w-screen min-h-screen px-10 py-10 md:px-20 md:py-20 lg:px-60 lg:py-40">
           <main className="w-full space-y-4">
