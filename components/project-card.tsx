@@ -8,7 +8,8 @@ interface ProjectCardProps {
   image: string;
   description: string;
   skills: string[];
-  link: string;
+  features?: string[];
+  link?: string;
 }
 
 export default function ProjectCard({
@@ -17,6 +18,7 @@ export default function ProjectCard({
   image,
   description,
   skills,
+  features,
   link,
 }: ProjectCardProps) {
   return (
@@ -36,15 +38,31 @@ export default function ProjectCard({
             <h3 className="text-2xl font-semibold">{title}</h3>
             <p className="italic">{tagline}</p>
           </div>
-          <Link href={link} target="_blank">
-            <LucideLink size={16} />
-          </Link>
+          {link && (
+            <Link href={link} target="_blank">
+              <LucideLink size={16} />
+            </Link>
+          )}
         </div>
         <hr className="border-foreground/10 my-2" />
         <div>
           <p className="text-pretty">{description}</p>
         </div>
-        <div className="flex flex-wrap gap-x-2">
+
+        {features && features.length > 0 && (
+          <div className="mt-3">
+            <h4 className="text-lg font-semibold text-slate-300 mb-1">
+              Key Features
+            </h4>
+            <ul className="list-disc list-inside columns-1 md:columns-2 text-slate-300/90 text-sm space-y-0.5">
+              {features.map((feature) => (
+                <li key={feature}>{feature}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <div className="flex flex-wrap gap-x-2 mt-3">
           {skills.map((skill) => (
             <p
               key={skill}
