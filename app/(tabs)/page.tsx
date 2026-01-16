@@ -30,7 +30,7 @@ export default function Home() {
           <h3 className="text-2xl font-semibold text-left sm:text-center">
             Skills
           </h3>
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 justify-between place-content-between text-lg gap-x-2 gap-y-1 [&>p]:w-fit lg:[&>p]:text-nowrap">
+          <div className="flex flex-wrap max-sm:[&>p]:underline sm:grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 sm:justify-between sm:place-content-between text-lg gap-x-2 gap-y-1 [&>p]:w-fit lg:[&>p]:text-nowrap">
             <p>AI Developer Tools</p>
             <p>Relational Database Concepts</p>
             <p>Advanced Python</p> <p>Advanced Java</p>
