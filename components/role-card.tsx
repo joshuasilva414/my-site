@@ -56,9 +56,11 @@ export default function RoleCard({
           </div>
           <div className="flex items-center gap-1">
             <MapPin size={14} />
-            <span>
-              {location} · {locationType}
-            </span>
+            <div className="flex items-center gap-1">
+              <span>{location}</span>
+              <span className="size-[0.15em] rounded-full bg-foreground/60" />
+              <span>{locationType}</span>
+            </div>
           </div>
         </div>
 

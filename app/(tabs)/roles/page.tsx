@@ -2,6 +2,33 @@ import RoleCard from "@/components/role-card";
 
 const roles = [
   {
+    company: "UTSA Data Analytics Center (DAC)",
+    title: "Graduate Research Assistant",
+    location: "San Antonio, TX",
+    locationType: "On-site" as const,
+    startDate: "February 2026",
+    endDate: "Present",
+    achievements: [],
+    description:
+      "Leveraging software engineering and web development skills to create better tools for the DAC to assist professors in the college of business. Researching AI interaction to build a seemless agentic AI assistant for the DAC accessible via a web interface and a realtime voice interface.",
+    skills: [
+      "Software Engineering",
+      "Web Development",
+      "Agentic AI",
+      "AI Interfaces",
+      "PostgreSQL",
+      "TypeScript",
+      "Python",
+      "Websockets",
+      "TailwindCSS",
+      "Next.js",
+      "FastAPI",
+      "Linux",
+      "Git",
+      "MCP",
+    ],
+  },
+  {
     company: "Paycom",
     title: "Software Development Intern",
     location: "Irving, TX",
