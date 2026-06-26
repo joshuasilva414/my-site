@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SkillsList from "@/components/skills-list";
 
 export default function Home() {
   return (
@@ -30,28 +31,7 @@ export default function Home() {
           <h3 className="text-2xl font-semibold text-left sm:text-center">
             Skills
           </h3>
-          <div className="flex flex-wrap max-sm:[&>p]:underline sm:grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 sm:justify-between sm:place-content-between text-lg gap-x-2 gap-y-1 [&>p]:w-fit lg:[&>p]:text-nowrap">
-            <p>AI Developer Tools</p>
-            <p>Relational Database Concepts</p>
-            <p>Advanced Python</p> <p>Advanced Java</p>
-            <p>HTML</p> <p>CSS</p> <p>JavaScript</p>
-            <p>Enterprise Software Engineering</p>
-            <p>Systems Programming</p>
-            <p>TypeScript</p> <p>C</p> <p>C#</p> <p>Go</p>
-            <p>PostgreSQL</p>
-            <p>Web Technologies</p>
-            <p>UI on Mobile Platforms</p>
-            <p>Scikit-Learn</p> <p>Pandas</p> <p>NumPy</p>
-            <p>Git-Based Collaboration</p>
-            <p>Technical Documentation</p>
-            <p>TensorFlow</p> <p>PyTorch</p>
-            <p>Project Management</p>
-            <p>Developer Advocacy Experience</p>
-            <p>React.js</p> <p>Next.js</p> <p>FastAPI</p> <p>TailwindCSS</p>
-            <p>CI/CD Platforms</p>
-            <p>API Design</p>
-            <p>Cloud Platforms / Containerization</p>
-          </div>
+          <SkillsList />
         </div>
       </div>
     </div>
