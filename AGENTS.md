@@ -1,0 +1,1 @@
+This project uses jj for version control.

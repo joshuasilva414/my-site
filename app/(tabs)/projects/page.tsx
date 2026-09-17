@@ -2,6 +2,53 @@ import ProjectCard from "@/components/project-card";
 
 const projects = [
   {
+    title: "Bonsai",
+    tagline: "Grow what you want to know",
+    image: "/images/projects/bonsai-home.jpg",
+    imageFit: "contain" as const,
+    description:
+      "Bonsai is an AI learning workspace that turns learning goals into structured courses. Explore connected concepts, work through an adaptive textbook, and practice with an AI tutor on an interactive whiteboard.",
+    skills: [
+      "TanStack Start",
+      "TypeScript",
+      "Cloudflare Workflows",
+      "Durable Objects",
+      "D1",
+      "tldraw",
+    ],
+    features: [
+      "AI-generated course outlines",
+      "Visual curriculum graphs",
+      "Adaptive textbook sessions",
+      "Persistent AI whiteboard tutoring",
+    ],
+    link: "https://github.com/joshuasilva414/bonsai",
+  },
+  {
+    title: "River",
+    tagline: "From scattered experience to a story that flows",
+    image: "/images/projects/river-workspace.jpg",
+    imageFit: "contain" as const,
+    description:
+      "River is a résumé builder that connects your experience to the requirements of a job posting. Organize supporting evidence, tailor résumé drafts with AI assistance, and review the final PDF before exporting.",
+    skills: [
+      "TanStack Start",
+      "TypeScript",
+      "Effect",
+      "Drizzle",
+      "Cloudflare Workflows",
+      "D1",
+      "R2",
+    ],
+    features: [
+      "Evidence-backed résumé tailoring",
+      "Job requirement analysis",
+      "Bring-your-own-key AI assistance",
+      "LaTeX templates and PDF export",
+    ],
+    link: "https://river.jilva.dev",
+  },
+  {
     title: "Mythic AI",
     tagline: "The Infinite D&D Experience driven by Artificial Intelligence",
     image: "/images/projects/mythic-ai.png",

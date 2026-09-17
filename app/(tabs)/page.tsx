@@ -17,19 +17,17 @@ export default function Home() {
             About
           </h3>
           <p className="text-right text-lg text-pretty">
-            Hello! I&apos;m Joshua Silva, a UTSA Computer Science graduate, and former officer of ACM UTSA.
-            I love engaging with the tech communities around me and I
-            believe in solving the world&apos;s most challenging problems
-            through technology. I&apos;m eager to make the next step in my
-            career and broaden my impact.
+            Hello! I&apos;m Joshua Silva, a UTSA Computer Science graduate, and
+            former officer of ACM UTSA. I love engaging with the tech
+            communities around me and I believe in solving the world&apos;s most
+            challenging problems through technology. I&apos;m eager to make the
+            next step in my career and broaden my impact.
           </p>
         </div>
       </div>
       <div className="clear-both">
-        <div className="">
-          <h3 className="text-2xl font-semibold text-left sm:text-center">
-            Skills
-          </h3>
+        <div className="mt-10">
+          <h3 className="text-2xl font-semibold text-center">Skills</h3>
           <SkillsList />
         </div>
       </div>

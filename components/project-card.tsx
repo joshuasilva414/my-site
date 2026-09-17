@@ -6,6 +6,7 @@ interface ProjectCardProps {
   title: string;
   tagline: string;
   image: string;
+  imageFit?: "cover" | "contain";
   description: string;
   skills: string[];
   features?: string[];
@@ -16,6 +17,7 @@ export default function ProjectCard({
   title,
   tagline,
   image,
+  imageFit = "cover",
   description,
   skills,
   features,
@@ -29,7 +31,7 @@ export default function ProjectCard({
           alt={title}
           width={500}
           height={500}
-          className="object-cover hover:object-contain md:w-full md:h-full w-200 max-h-100"
+          className={`${imageFit === "contain" ? "object-contain" : "object-cover hover:object-contain"} md:w-full md:h-full w-200 max-h-100`}
         />
       </div>
       <div className="md:w-2/3 p-4">
