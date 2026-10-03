@@ -3,11 +3,14 @@
   "main": ".open-next/worker.js",
   "name": "my-site",
   "compatibility_date": "2026-01-15",
-  "compatibility_flags": [
-    "nodejs_compat"
+  "compatibility_flags": ["nodejs_compat"],
+  "routes": [
+    { "pattern": "joshuasilva.me", "custom_domain": true },
+    { "pattern": "www.joshuasilva.me", "custom_domain": true },
+    { "pattern": "jilva.dev", "custom_domain": true },
   ],
   "assets": {
     "directory": ".open-next/assets",
-    "binding": "ASSETS"
-  }
+    "binding": "ASSETS",
+  },
 }

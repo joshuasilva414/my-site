@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import { ViewTransition } from "react";
-import Navbar from "./navbar";
 import localFont from "next/font/local";
 import "@/app/globals.css";
 
@@ -40,12 +38,7 @@ export default async function RootLayout({
         <link rel="manifest" href="/favicon_io/site.webmanifest" />
       </head>
       <body className={`${satoshi.variable} ${erode.variable} antialiased`}>
-        <div className="w-screen min-h-screen px-10 py-10 md:px-20 md:py-20 lg:px-60 lg:py-40">
-          <main className="w-full space-y-4 max-w-7xl mx-auto">
-            <Navbar />
-            <ViewTransition enter="slide-in">{children}</ViewTransition>
-          </main>
-        </div>
+        {children}
       </body>
     </html>
   );

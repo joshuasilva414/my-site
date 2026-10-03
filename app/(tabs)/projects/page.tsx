@@ -22,7 +22,7 @@ const projects = [
       "Adaptive textbook sessions",
       "Persistent AI whiteboard tutoring",
     ],
-    link: "https://github.com/joshuasilva414/bonsai",
+    link: "/bonsai",
   },
   {
     title: "River",
@@ -46,7 +46,7 @@ const projects = [
       "Bring-your-own-key AI assistance",
       "LaTeX templates and PDF export",
     ],
-    link: "https://river.jilva.dev",
+    link: "/river",
   },
   {
     title: "Mythic AI",
@@ -68,7 +68,7 @@ const projects = [
       "User Voice Interruptions",
       "Highly scalable D&D sessions via Durable Objects",
     ],
-    link: "https://github.com/joshuasilva414/mythic-ai",
+    link: "/mythic-ai",
   },
   {
     title: "ClubKit",
