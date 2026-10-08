@@ -58,7 +58,7 @@ export default function Navbar() {
         >
           Roles
         </Link>
-        <Link href="https://tgc.bearblog.dev" target="_blank">
+        <Link href="https://tgc.jilva.dev/" target="_blank">
           Blog
         </Link>
         <Link
